@@ -115,8 +115,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void displayMessage(String message) {
-        TextView orderSummaryTextView = (TextView) findViewById(R.id.calculation_display);
-        orderSummaryTextView.setText(message);
+        TextView calculationTextView = (TextView) findViewById(R.id.calculation_display);
+        calculationTextView.setText(message);
     }
 
     public void ResetValues(View view) {
